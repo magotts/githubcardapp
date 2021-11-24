@@ -36,8 +36,8 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <div className="header">The Github Cards App</div>
+      <div className="flex">
+        <div className="header">GitHub User Card Search</div>
         <Form onSubmit={this.addNewProfile} />
         <CardList profiles={this.state.profiles} />
       </div>

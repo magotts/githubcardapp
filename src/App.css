@@ -1,33 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
+html {
+  background-color: #0F2C67;
+  
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+}
 .github-profile {
-	margin: 3rem;
+  display: inline;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
 }
 
 .profile-img {
-  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .profile-info {
-  display: inline-block;
-    margin-left: 12px;
+  display: block;
+  margin-left: 12px;
 }
 
 .profile-name {
   font-size: 1.25rem;
   font-weight: bold;
+  color: #F3950D
 }
 
 form {
+  /* display: inline-block; */
 	border: thin solid #ddd;
-  background-color: #fbfbfb;
+  background-color: #CD1818;
   padding: 2rem;
   margin-bottom: 2rem;
   display: flex;
   justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 .header {
-	text-align: center;
-  font-size: 1.5rem;
+  text-align: center;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
+  margin-top: 1rem;
+  color: #F4E185;
+}
+
+button {
+  font-size: 1.5em;
+}
+
+input {
+  font-size: 1.5em;
+}
+
+.gitbox {
+  margin-left: auto;
+  margin-right: auto;
+  width: 18em;
+  border: 10px solid white;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+}
+
+.profile-name a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
 }
