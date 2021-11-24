@@ -36,11 +36,14 @@ class App extends React.Component {
 
   render() {
     return (
+      <>
       <div className="flex">
         <div className="header">GitHub User Card Search</div>
         <Form onSubmit={this.addNewProfile} />
         <CardList profiles={this.state.profiles} />
       </div>
+      <div className="footer">Built with React.</div>
+      </>
     );
   }
 }
