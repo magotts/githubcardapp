@@ -40,8 +40,6 @@ body {
 }
 
 form {
-  /* display: inline-block; */
-	
   background-color: #CD1818;
   padding: 2rem;
   margin-bottom: 2rem;
@@ -51,6 +49,8 @@ form {
   border-radius: 15px;
   margin-left: 30%;
   margin-right: 30%;
+  overflow: hidden;
+  resize: none;
 }
 
 .header {
