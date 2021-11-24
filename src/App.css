@@ -90,3 +90,10 @@ input {
   color: white;
   padding-right: 10px;
 }
+
+.footer {
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
