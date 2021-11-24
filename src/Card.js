@@ -16,7 +16,7 @@ const Card = (props) => {
   <p>{props.bio}</p>
 </details>)}
 
-        {props.company && (<div className="company">Company: {props.company}</div>)}
+        {props.company && (<div className="profile-name">Company: {props.company}</div>)}
         {props.location && ( <div className="profile-name">Location: {props.location} </div>) }
         {props.twitter_username && ( <div className="profile-name">Twitter: {props.twitter_username}</div>) }
         {props.html_url && ( <div className="profile-name"><a href={props.html_url} target="_blank">GitHub</a></div> )}
